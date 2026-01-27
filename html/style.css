@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+@font-face {
+  font-family: 'ITC Kabel Std Book';
+  src: url('ITCKabelStd-Book.woff2') format('woff2'),
+       url('ITCKabelStd-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: #111111;
+  color: #f7f7f7;
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 900px;
+  padding-top: 10vh;
+  text-align: center;
+}
+
+.title-small {
+  font-family: 'ITC Kabel Std Book', sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.2em;
+  opacity: 0.8;
+}
+
+.title-main {
+  font-family: 'ITC Kabel Std Book', sans-serif;
+  font-size: 4rem;
+  letter-spacing: 0.05em;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.description {
+  max-width: 700px;
+  margin: 0 auto 3rem auto;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #e9e9e9;
+}
+
+.btn-doc {
+  border: 1px solid #444;
+  color: #f7f7f7;
+  padding: 0.6rem 1.2rem;
+  margin: 0.6rem auto;
+  text-decoration: none;
+  font-size: 0.9rem;
+  display: block;
+  width: 260px;
+  text-align: center;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.btn-doc:hover {
+  background: #f7f7f7;
+  color: #111111;
+}
+
+.contributors {
+  margin-top: 6rem;
+  font-size: 0.9rem;
+  color: #dddddd;
+}
+
+.github-link {
+  margin-top: 1.5rem;
+}
+
+.github-icon {
+  width: 32px;
+  height: 32px;
+  filter: invert(1);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.github-icon:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
