@@ -14,11 +14,12 @@ body {
   color: #f7f7f7;
   font-family: 'Inter', sans-serif;
   min-height: 100vh;
+  padding: 0 1rem 3rem;
 }
 
 .container {
   max-width: 900px;
-  padding-top: 10vh;
+  padding-top: 7vh;
   text-align: center;
 }
 
@@ -38,7 +39,7 @@ body {
 }
 
 .description {
-  max-width: 700px;
+  max-width: 720px;
   margin: 0 auto 3rem auto;
   font-size: 1rem;
   line-height: 1.6;
